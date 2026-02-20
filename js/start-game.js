@@ -525,7 +525,7 @@ on($('#launch'), 'click', () => {
     setTimeout(() => {
         alert(`OK ! ${n} joueur(s) • ${names.join(', ')} • bot: ${bot}`);
         // Redirection vers la page principale du jeu
-        window.location.href = "index.html";
+        window.location.href = "game.html";
     }, 350);
 });
 
