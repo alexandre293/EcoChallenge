@@ -387,7 +387,7 @@ function detectSeasonByMonth(m) {
 })();
 
 /* ======= RÈGLES ======= */
-const FULL_RULES_URL = ""; // ex: "https://alexandre293.github.io/Eco-jeux/reglement"
+const FULL_RULES_URL = "guide.html";
 if (FULL_RULES_URL) {
     const L = $('#fullRulesLink');
     L.style.display = 'inline-flex';
